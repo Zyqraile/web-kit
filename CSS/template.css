@@ -1,0 +1,21 @@
+/* 1. Basic reset - removes default browser margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Base styles for the body - readable font and clean colors */
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #222;
+    background-color: #fff;
+}
+
+/* 3. Images - ensures they stay responsive and don't overflow */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
